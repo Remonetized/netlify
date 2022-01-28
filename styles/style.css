@@ -1,4 +1,4 @@
-textarea {
+.txtarea {
     resize: horizonal !important;
     overflow: auto;
 }
