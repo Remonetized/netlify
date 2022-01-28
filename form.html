@@ -10,20 +10,94 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   </head>
-  <body>
+  <body class="bg-secondary">
       
-    <div class="container m-5 p-5 bg-light">
-      <h3 class="text-success">Site feedback for Organic ME</h3>
-      <h5 class="text-muted">Please enter all the information in the form below</h5>
-      <p class="text-dark">Testing netlify</p>
-
-      <form name="netlify" netlify>
-        <label>Name: </label>
-        <input type="text" name="name">
-        <input type="submit" name="submit" value="submit">
-      </form>
-
-      <p>Input your name above</p>
+    <div class="container m-3 p-2 bg-light">
+    <h3 class="text-white bg-success px-2 pb-1">Site Feedback for Organic ME</h3>
+      <div class="container p-3">          
+          <h5 class="text-muted">Please enter all applicable information in the form below</h5>
+          <p class="text-dark">In most cases, yes and no answers are sufficient. But if issues arise we'd be grateful if you could describe them accurately so they can be fixed.<br>Thank you. Your feedback helps us to improve our site and services.</p>
+          <hr>
+          <div class="row">
+              <div class="col-5">
+                  <form name="netlify" netlify>
+                    <label class="fw-bold">Name: </label><br>
+                    <input type="text" name="name" size="18"><br>
+                    <label class="fw-bold">Date of Test: </label><br>
+                    <input type="date" name="date" value="2022-01-28"><br><br>
+                    <label class="fw-bold">Device(s) used in test</label><br>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" value="PC"> Desktop or Laptop PC
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" value="Apple"> Apple Desktop/ Laptop
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" value="Mobile"> Tablet/ Mobile
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" value="Other"> Other
+                      </label><br><br>
+                    <label class="fw-bold">Browser(s) used (if applicable)</label><br>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" value="Explorer"> Edge/ Internet Explorer
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" value="Firefox"> Firefox
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" value="Chrome"> Chrome
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" value="Safari"> Safari
+                      </label>
+                      <label class="checkbox-inline">
+                        <input type="checkbox" value="Other"> Other
+                      </label><br><br>
+                    <label class="fw-bold">Did the site load and display properly?</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">Did the site load in a reasonable time? If not, were any pages or elements particularly slow?</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">Were the elements responsive, eg links working as expected?</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">Was the layout simple to understand? If not, why not?</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">Was the site easy to navigate? If not, why not?</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">Was the site self explanatory? If you had any questions, were they answered by browsing the site?</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">On a scale of 1-10, with 1 being least, how professional did the site feel?</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">On a scale of 1-10, with 1 being least, how friendly did the site feel?</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">Did the site make you more likely to visit the caf&#233;, less likely, or indifferent?</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">Did the site make you more likely to purchase a product from the shop, less likely, or no different?</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">Did the site make you more likely to join a gardening course, less likely, or no different?</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">Without referencing the site, can you name three products in the shop?</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">If you were to visit the caf&#233;, what food or drink items would you be most likely to purchase?</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">If you were to visit the shop, or purchase online, which item or items (in order) would you be most likely to buy?</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">Please describe any non technical issues, such as bad choice of colour, illegible fonts, distracting images and so on. All feedback is helpful in optimizing the site for user experience</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">Please describe any technical issues and errors, if applicable. If possible include device and browser type, and describe the issues. If you wish to attach screenshots they can be uploaded in the form below.</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <label class="fw-bold">Upload Screenshots (optional)</label><br>
+                    <input type="file" name="img"><br>
+                    <input type="file" name="img"><br>
+                    <input type="file" name="img"><br>
+                    <label class="fw-bold">If you have any other feedback not addressed by the questions above, please tell us here. You can also email <em>organicme@lkweb.site</em> to report any errors or other issues with the site.</label>
+                    <br><textarea class="txtarea" name="" id="" cols="45"></textarea><br>
+                    <p><em>Thank you for your time.</em></p>
+                    <input type="submit" class="btn btn-success px-5" name="submit" value="Submit Survey">
+                  </form>
+              </div>
+          </div>
+      </div>
 
 
     </div>
